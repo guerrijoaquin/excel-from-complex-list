@@ -37,7 +37,6 @@ let headerFinalRow: number = 0;
  * @returns the file
  */
 export const getExcelFromJSONList = async (filename: string, sheets: OneSheet[]) => {
-  return true;
   const workbook = new ExcelJS.Workbook();
   workbook.creator = 'Tarjeta Prepaga | Comafi';
 
